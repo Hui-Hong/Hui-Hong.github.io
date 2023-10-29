@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1, p, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1; /* Fallback color in case the background image doesn't load */
+    background-image: url('HST_comma_BG.jpg'); /* Set the background image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff; /* Text color for the whole page */
+}
+
+.background-image {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background over the image */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #FFD700; /* Yellow title text color */
+    text-shadow: 2px 2px 4px #000; /* Drop shadow for the title */
+}
+
+.content {
+    padding: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow; /* 蓝色文字*/
+}
+ul {
+     list-style: none; /* 移除默认的项目符号 */
+     padding: 0; /* 移除默认的内边距 */
+}
+li {
+     text-align: center; /* 使文本居中 */
+     margin: 10px 0; /* 调整项目之间的垂直间距 */
+     font-size: 1.5em;
+}
+table {
+     border-collapse: collapse;
+     margin: 0 auto;
+}
+table, th, td {
+     border: 1px solid #000;
+}
+th, td {
+     padding: 8px 12px;
+     text-align: left;
+     font-size: 1.5em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.caption {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Black footer background */
+    text-align: center;
+    color: #fff; /* White text color for the footer */
+    padding: 10px 0;
+}
+
